@@ -12,6 +12,8 @@ Keras Deep Clustering File
 - Based on unsupervised learning article - https://www.dlology.com/blog/how-to-do-unsupervised-clustering-with-keras/
 - Size issues
 - Unsure of labels
+- Unsure how this is able to output multiple object detections for single image - model is based on single image classification into mutiple classes
+- Continuing to run into memory issues
 
 Open CV Object Detection File
 Part I
