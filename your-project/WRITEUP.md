@@ -1,10 +1,33 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of My Project
-*[Your Name]*
+# Car Detection
+*Emiri Dandoy*
 
-*[Your Cohort, Campus & Date]*
+*Data Analytics - Squad 32 - 2019*
 
+## Current Flow
+Two work flows:
+
+Keras Deep Clustering File 
+- Based on unsupervised learning article - https://www.dlology.com/blog/how-to-do-unsupervised-clustering-with-keras/
+- Size issues
+- Unsure of labels
+
+Open CV Object Detection File
+Part I
+- Based on opencv library - pretrained weights of objects from COCO dataset
+- Segmented to just cars (filtered out other objects)
+- Current output are boxes
+- Ideally convert to mask per instance of car - mask rcnn?
+- Would these work as labels to train original dataset?
+
+
+Part II
+- Using data provided regarding car coordinates
+- Pinpoint center points of cars - wondering if could build contour within each identified car based on those coordinates
+
+
+---------------------------------
 ## Content
 - [Project Description](#project-description)
 - [Hypotheses / Questions](#hypotheses-questions)
